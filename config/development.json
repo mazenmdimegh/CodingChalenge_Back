@@ -1,0 +1,6 @@
+{
+    "DB":{
+        "username":"user",
+        "host":"@cluster0.wsflh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    }
+}

@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "set mySecret=CLGO7iewBpe0Nefo&& set DEBUG=app:*&& nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.7",
     "express": "^4.17.3",
+    "joi": "^17.6.0",
     "mongoose": "^6.2.6",
     "nodemon": "^2.0.15"
   }
